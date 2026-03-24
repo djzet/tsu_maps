@@ -13,6 +13,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  lottie: ^3.3.2
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.20.2
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -34,3 +39,6 @@ flutter:
         - asset: assets/fonts/Ubuntu/Ubuntu-Medium.ttf
         - asset: assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf
         - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
+
+  assets:
+    - assets/animations/splash_animation.json
